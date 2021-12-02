@@ -26,6 +26,9 @@
     },
     "SocialText": {
       "type": "text"
+    },
+    "newstext": {
+      "type": "text"
     }
   }
 }
