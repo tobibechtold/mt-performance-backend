@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "welcomeText": {
+      "type": "text"
+    },
+    "DriverText": {
+      "type": "text"
+    },
+    "SponsorText": {
+      "type": "text"
+    },
+    "SocialText": {
+      "type": "text"
+    }
+  }
+}

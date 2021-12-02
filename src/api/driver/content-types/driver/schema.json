@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "drivers",
+  "info": {
+    "singularName": "driver",
+    "pluralName": "drivers",
+    "displayName": "Driver"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "Role": {
+      "type": "enumeration",
+      "enum": [
+        "Fahrer",
+        "Streamer",
+        "Teamchef",
+        "Orga"
+      ],
+      "default": "Fahrer",
+      "required": true
+    },
+    "Wohnort": {
+      "type": "string"
+    },
+    "Biography": {
+      "type": "text"
+    },
+    "Hardware": {
+      "type": "text"
+    },
+    "iRating": {
+      "type": "integer"
+    }
+  }
+}
