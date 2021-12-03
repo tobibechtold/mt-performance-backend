@@ -39,13 +39,13 @@
       "type": "integer"
     },
     "image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
